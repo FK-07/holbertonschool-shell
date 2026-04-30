@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not -path "." -exec chmod 711 {} +
+find . -type d -not -path "." -exec chmod 755 {} +
